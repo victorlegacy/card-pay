@@ -1,0 +1,32 @@
+body{
+    background: url('bg.jpg');
+     background-position: fixed;
+    /* background-size: cover; */
+    background-size:100% ;
+    background-repeat: no-repeat;
+
+}
+.form-control{
+    background-color: rgb(231, 231, 231);
+    border:0px;
+}  
+.form-control::placeholder{
+    color: gray;
+}   
+    
+.g-btn:hover {
+    background-color: #f7f7f7;
+}
+
+
+.g-btn{
+    border: 1px solid rgb(155, 155, 155) !important;
+}
+.card{
+    margin-top: 60%;
+}
+@media (min-width: 768px) {
+    .card {
+        margin-top: 50%;
+    }
+}
